@@ -17,7 +17,7 @@ This guide walks you through setting up a Server-Side Request Forgery (SSRF) att
 
 ## Setting Up the Application
 ### Step 1: Clone the following github repo
-(https://github.com/incredibleindishell/SSRF_Vulnerable_Lab.git)
+
 
 There is a Dockerfile in this repo that will spin up a vulnerable docker image. To build it, simply run docker build -t <tag> .. The Apache server is running on port 80 inside the container. Expose it with the -p flag. Running it with docker run -p 9000:80 <tag> will bring up a container listening on localhost:9000.
 
